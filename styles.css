@@ -1,0 +1,210 @@
+body {
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: #eafaf1;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+
+}
+
+button {
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav__links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    
+}
+
+.nav__links a {
+    text-decoration: none;
+    color: #00ad6a;
+    font-weight:  bold;
+    
+}
+
+#signUpHeader {
+    background-color: #eafaf1;
+    padding: 4px 16px;
+    font-weight: bold;
+    border-color: #00ad6a;
+}
+
+h1 {
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 48px;
+}
+
+h3 {
+    color: #00ad6a;
+}
+
+#getNow {
+    color: black;
+}
+
+.infoCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+#card__small {
+    border-style: solid;
+    border-color: #00ad6a;
+    border-width: 2px;
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+#card__small h2 {
+    text-wrap: wrap;
+    color: #00ad6a;
+    font-size: 40px;
+}
+
+.rec__banner {
+    background-color: #00ad6a;
+    padding: 6px;
+    color: #eafaf1
+}
+
+.small__business-price {
+    font-weight: normal;
+    font-size: 30px;
+    color: #83858a;
+}
+
+.small__business-features {
+    text-align: left;
+}
+
+#review {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap: wrap;
+
+}
+
+#review img {
+    height: 80px;
+    width: 80px;
+}
+
+.h4__green {
+    color: #00ad6a;
+}
+
+#reviewQuote {
+    font-size: 22px;
+}
+
+#faq {
+    display: block;
+    block-size: auto;
+    background-color: #fcfcfc;
+    border-color: #d6dae5;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    align-content: flex-start;
+    
+}
+
+.faq__title {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 3px 15px;
+}
+
+.faq__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+   }
+
+.faq__block {
+    max-width: 500px;
+    padding: 30px;
+}
+
+.faq__block-q {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #080c16;
+    padding: 80px;
+
+}
+
+#foot__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    list-style-type: none;
+
+}
+
+
+.foot__container-flex {
+    display: flex;
+    
+}
+
+.foot__logo-butt {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.foot__logo-butt img {
+    max-width: 150px;
+}
+footer button {
+    padding: 10px;
+    margin: 6px;
+
+    background-color: #00ad6a;
+}
+.linkList {
+    color: #fcfcfc;
+    list-style-type: none;
+    
+}
+
+.linkList li {
+    margin: 0 0 10px 0;
+}
+
+.linkList a {
+    color: #00ad6a;
+    text-decoration-line: none;
+    
+}
+
+a:visited {
+    text-decoration-line: none;
+}
+
+.copyright * {
+    color: #d6dae5;
+
+}
